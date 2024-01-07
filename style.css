@@ -60,8 +60,7 @@ header{
 
 /* Feature section style */
 
- .feature-container,
- .services {
+ .feature-container {
     margin: 130px auto 30px;
     text-align: center;
 }
@@ -77,7 +76,8 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
-    gap: 18px; 
+    gap: 18px;
+    width: 75%; 
 }
 .box1,
 .box2,
@@ -96,28 +96,31 @@ header{
     border-radius: 300px 300px 0px 0px;
     background: rgba(5, 151, 160, 0.15);
     width: 350px;
-    height: 500px;
-   
+    height: 500px; 
 }
 .box3 img{
     border-radius: 300px 300px 0px 0px;
     background: rgba(71, 125, 17, 0.15);
     width: 350px;
-    height: 500px;
-    
+    height: 500px;   
 }
+
 /* serevice section style */
 
 .services {
     border-radius: 8px;
     background: rgba(39, 39, 39, 0.05);
+    width: 75%;
+    margin: 130px auto;
+}
+.service-package{
     display: flex;
     justify-content: space-between;
     align-items: center;
-}
-.delivery {
     text-align: center;
+    padding: 65px 130px;
 }
-.services, .delivery img {
-    margin: 65px 106px 18px;
+.service-package p{
+    font-size: 18px;
+    padding: 18px;
 }
