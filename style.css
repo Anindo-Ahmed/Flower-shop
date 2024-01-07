@@ -168,3 +168,31 @@ span{
     width: 100%;
 }
 
+/* Subscription section style */
+
+.subscription-section{
+    background-image: url("Flower Asset/Rectangle\ 9.png");
+    margin: 100px auto;
+    text-align: center;
+    max-height: 338px;
+}
+.subscription-section h3{
+    padding: 100px 0 12px;
+}
+.subscription-section p{
+    padding: 0 0 36px;
+}
+input[type="email"]{
+    height: 48px;
+    width: 525px;
+    margin: 0 0 100px;
+    padding:5px;
+    border-radius: 5px;
+    border: 0;
+}
+/* Footer section style */
+footer{
+    background: #111010;
+    max-height: 338px;
+    
+}
